@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weeekly Official</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#discography">Discography</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#awards">Awards</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#fanzone">Fan Zone</a></li>
+                <li><a href="#merch">Merch</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <h1>Welcome to Weeekly's World</h1>
+            <p>Weeekly, a vibrant K-pop group bringing joy and music to fans worldwide!</p>
+        </section>
+
+        <section id="about">
+            <h2>About Weeekly</h2>
+            <p>Weeekly is known for their unique concept and catchy tunes. Here's a brief about each member:</p>
+            <div class="member-grid">
+                <div class="member">
+                    <h3>Member Name 1</h3>
+                    <p>Position: Leader, Main Vocalist</p>
+                </div>
+                <div class="member">
+                    <h3>Member Name 2</h3>
+                    <p>Position: Main Dancer, Vocalist</p>
+                </div>
+                <!-- Add more members as needed -->
+            </div>
+        </section>
+
+        <section id="discography">
+            <h2>Discography</h2>
+            <ul>
+                <li><a href="#">Album Title 1</a></li>
+                <li><a href="#">Single Title 2</a></li>
+                <!-- Add more albums/singles -->
+            </ul>
+        </section>
+
+        <section id="schedule">
+            <h2>Upcoming Schedule</h2>
+            <ul>
+                <li>Event: Concert in Seoul - Date: January 25, 2025</li>
+                <li>Event: Fan Meeting - Date: February 10, 2025</li>
+                <!-- Add more events -->
+            </ul>
+        </section>
+
+        <section id="awards">
+            <h2>Awards & Achievements</h2>
+            <ul>
+                <li>Award: Best New Artist - Year: 2023</li>
+                <li>Award: Song of the Year - Year: 2024</li>
+                <!-- Add more awards -->
+            </ul>
+        </section>
+
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <div class="gallery-grid">
+                <img src="image1.jpg" alt="Weeekly Performance">
+                <img src="image2.jpg" alt="Weeekly Behind the Scenes">
+                <!-- Add more images -->
+            </div>
+        </section>
+
+        <section id="fanzone">
+            <h2>Fan Zone</h2>
+            <p>Welcome, Weeekly fans! Share your art, stories, or vote for your favorite moments:</p>
+            <button onclick="showVoting()">Vote for Your Favorite</button>
+            <div id="votingSection" style="display:none;">
+                <h3>Voting</h3>
+                <form>
+                    <label for="voteOption">Choose your favorite:</label><br>
+                    <select id="voteOption">
+                        <option value="song1">Song 1</option>
+                        <option value="song2">Song 2</option>
+                    </select><br>
+                    <button type="button" onclick="submitVote()">Submit Vote</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="merch">
+            <h2>Merchandise</h2>
+            <p>Check out our official merchandise:</p>
+            <a href="#">Shop Now</a>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>For inquiries or to join our fan club:</p>
+            <form>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Weeekly. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
